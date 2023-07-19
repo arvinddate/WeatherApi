@@ -57,7 +57,7 @@ function renderWeatherData(weatherData) {
 };
 function locationDetail(time,day) {
     const timeArr=time.split(' ');
-    const result = timeArr[1] + " " + day +timeArr[0];
+    const result = timeArr[1] + " " +timeArr[0];
     return result;
     
 }
